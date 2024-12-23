@@ -1,0 +1,20 @@
+{
+  "name": "preentrega01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Javier Aparicio",
+  "license": "ISC",
+  "description": "Proyecto preentrega01 curso Backend I Coder",
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

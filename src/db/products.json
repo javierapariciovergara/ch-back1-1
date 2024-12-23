@@ -1,0 +1,44 @@
+[
+  {
+    "id": "73cd61f4-e92c-4435-a7ea-5680048dfdcb",
+    "title": "Producto1",
+    "description": "Descripcion1",
+    "code": "codigo1",
+    "price": 10,
+    "status": true,
+    "stock": 2,
+    "category": "Categoria1",
+    "thumbs": [
+      "path1",
+      "path2"
+    ]
+  },
+  {
+    "id": "cabacf29-3999-47cb-9132-541c0610b7ca",
+    "title": "Producto3",
+    "description": "Descripcion3modificado",
+    "code": "codigo3",
+    "price": 5,
+    "status": true,
+    "stock": 5,
+    "category": "Categoria3",
+    "thumbs": [
+      "path1",
+      "path2"
+    ]
+  },
+  {
+    "id": "5c6b1233-ffa0-45fa-a986-51958cb2214f",
+    "title": "Producto4",
+    "description": "Descripcion4",
+    "code": "codigo4",
+    "price": 320,
+    "status": true,
+    "stock": 7,
+    "category": "Categoria4",
+    "thumbs": [
+      "path1",
+      "path2"
+    ]
+  }
+]
