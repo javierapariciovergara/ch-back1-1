@@ -20,13 +20,14 @@ class CartsManager {
         }
     };
 
-    // getAll(){}; No requerido
+    // getAll(){}; Metodo no requerido para Carts
 
     async getById( cid ){
         const cart = this.carts.find((cart) => cart.id === cid);
         return cart;
     }
 
+    
     async createCart() {
         const id = uuid();
     
@@ -62,7 +63,7 @@ class CartsManager {
         return cart;
     };
 
-    ///////////////////////////// METODOS QUE FALTAN PONER AQUI
+    ///////////////////////////// METODOS QUE FALTAN PONER AQUI A FUTURO, UPDATE DELETE ETC
 
     async saveOnFile() {
         try {
@@ -74,7 +75,7 @@ class CartsManager {
     }    
 };
 
-// Exportar una instancia del servicio
+// Exportar una instancia del servicio //
 export const cartsManager = new CartsManager({
 path: './src/db/carts.json',
 });

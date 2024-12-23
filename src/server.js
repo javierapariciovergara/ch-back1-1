@@ -5,17 +5,17 @@ import { cartsRoutes } from "./routes/carts.routes.js";
 const app = express();
 const PORT = 5000;
 
-// App Configuracion
+// App Configuracion //
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Routes
+// Routes //
 
 app.use('/api/products', productsRoutes);
 app.use('/api/carts', cartsRoutes); 
 
-// App Listener
+// App Listener //
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);

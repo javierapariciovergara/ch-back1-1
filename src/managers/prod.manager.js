@@ -30,7 +30,7 @@ class ProductsManager {
         return product;
     }
 
-   
+
     async create( { title, description, code, price, status, stock, category, thumbs } ){
         const id = uuid();
         
@@ -49,7 +49,6 @@ class ProductsManager {
     };
 
 
-  
     async update({ id, title, description, code, price, status, stock, category, thumbs } ){
 
         const product = this.products.find((product) => product.id === id);
@@ -80,7 +79,7 @@ class ProductsManager {
 
     };
 
-   
+
     async delete({ id }){
         const product = this.products.find((product) => product.id === id);
 
@@ -112,7 +111,7 @@ class ProductsManager {
     }
 };
 
-// Exportar una instancia del servicio
+// Exportar una instancia del servicio //
 export const productsManager = new ProductsManager({
     path: "./src/db/products.json",
 });

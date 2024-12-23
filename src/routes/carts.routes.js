@@ -3,7 +3,7 @@ import { cartsManager } from "../managers/cart.manager.js";
 
 export const cartsRoutes = Router();
 
-// Routes - Endpoints
+// Routes - Endpoints //
 
 // Get Carrito por ID
 //// Mejorar
@@ -29,6 +29,7 @@ cartsRoutes.post("/", async (req, res) => {
         res.status(500).json({ message: "Error al crear el carrito" });
     }
 });
+
 
 // Post Producto en Carrito
 cartsRoutes.post("/:cid/product/:pid", async (req, res) => {
